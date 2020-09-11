@@ -1,0 +1,28 @@
+=== Webpack (import/exports) ===
+    - Babel
+    - SCSS
+    - Eslint
+    - 2 Modes
+        == Dev ==
+            - Dev Server
+            - SourceMaps
+            - Eslint
+            - Not Minified JS & CSS
+
+        == Prod ==
+            - Minified Code
+
+=== Git ===
+    == Production ==
+        - (1.0.0) ================== |_________......|
+        - (2.0.0) ================== |_____________..|
+
+    == Development ==
+        = ver 1 =
+            - (1.0.2) ============== |___________....|
+            - (New brunch) ========= |_____________..| Pull Request+
+            - (1.0.2 + New brunch) = |___________....| + |...........__..|
+            - (1.0.3) ============== |_____________..| if stable push in Prod 1.0.0 -> 2.0.0
+
+        = ver 2 =
+            - (2.0.0) ============== |_____________..|
